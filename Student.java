@@ -12,8 +12,7 @@ public class Student extends Person implements Payable{
     this.department = department;
 }
 
-
-    @Override
+    @Override 
     public void showRole(){
         System.out.println("Student..");
     }
