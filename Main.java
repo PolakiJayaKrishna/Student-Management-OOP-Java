@@ -19,7 +19,7 @@ public class Main {
             System.out.println("6. Exit");
             System.out.print("Choose: ");
 
-            int choice;
+            int choice ;
             try {
                 choice = Integer.parseInt(sc.nextLine().trim());
             } catch (NumberFormatException e) {
