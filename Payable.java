@@ -1,5 +1,5 @@
 package OOP;
 
 public interface Payable {
-    void payFees();
+    void payFees(); 
 }

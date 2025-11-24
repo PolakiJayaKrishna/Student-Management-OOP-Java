@@ -8,7 +8,7 @@ public class Student extends Person implements Payable{
     public Student(String name, int age, int marks, long regNo, String department) {
     super(name, age);
     this.marks = marks;
-    this.regNo = regNo;
+    this.regNo = regNo; 
     this.department = department;
 }
 
